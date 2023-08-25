@@ -3,21 +3,66 @@
 	<head>
 		<title>Pasquale.io Homepage</title>
 		<meta name="description" content="The personal portfolio of Pasquale Popolizio.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<style>
+			@font-face {
+    			font-family: "futura";
+    			src:	url("Futura Bold Italic.woff") format('woff'),
+    					url("Futura Bold Italic.ttf") format('truetype');
+			}
+			
+			*{
+				font-family: futura;
+			}
+			
+			img.logo{
+			height:64px;
+			margin-right:128px;
+			}
+			h1.navbar{
+				text-align:center;
+			}
+			h2.homepageButtons{
+				text-align:center;
+			}
+			a{
+				text-decoration: none;
+			}
+			a.navbarButton{
+				background-color: black;
+				color: white;
+				padding: 1%;
+			}
+			a.button{
+				background-color:red;
+				color:white;
+				padding: 1%;
+			}
+			p{
+				text-align:center;
+				border-color: black;
+				border: solid;
+				padding:5%;
+				margin-top:5%;
+				margin:5%;
+			}
+		</style>
 	</head>
 	<body>
-		<a href="index.html"><img src="logo.png" width="400" height="122" alt="logo"></a>
-		<h1>
-			<a href="index.html">Home</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="aboutme.html">About Me</a>
-			<a href="contactme.html">Contact Me</a>
+		<h1 class="navbar">
+			<a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
+			<a class="navbarButton" href="index.html">Home</a>
+			<a class="navbarButton" href="portfolio.html">Portfolio</a>
+			<a class="navbarButton" href="aboutme.html">About Me</a>
+			<a class="navbarButton" href="contactme.html">Contact Me</a>
 		</h1>
 		<p>
 		Hello!  My name is Pasquale, and this is my personal portfolio website!  Feel free to contact me with technical inquiries or employment opportunities.  Take a look at my work!
 		</p>
-		<h2>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contactme.html">Contact Me</a>
+		<h2 class="homepageButtons">
+			<a class="button" href="portfolio.html">Portfolio</a>
+			<a class="button" href="contactme.html">Contact Me</a>
 		</h2>
 	</body>
 </html>
