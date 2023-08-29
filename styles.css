@@ -7,13 +7,18 @@
 			*{
 				font-family: futura;
 			}
-			
+			a.logoanchor{
+			height: 64px;
+			vertical-align: middle;
+			margin-right:64px;
+			}
 			img.logo{
 			height:64px;
-			margin-right:128px;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 			}
-			h1.navbar{
-				text-align:center;
+			.navbar{
+				display: block;
+				text-align:center;		
 			}
 			h2.homepageButtons{
 				text-align:center;
@@ -24,12 +29,33 @@
 			a.navbarButton{
 				background-color: black;
 				color: white;
-				padding: 1%;
+				border-style: solid;
+				border-color:black;
+				border-width: 2px;
+				padding: 5px;
+				transition: background-color 0.5s;
+				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+			}
+			a.navbarButton:hover{
+				background-color: white;
+				color: black;
+			}
+			a.navbarButton:active{
+				opacity: 0.5;
 			}
 			.button{
 				background-color:red;
 				color:white;
-				padding: 1%;
+				padding: 5px;
+				border-style: solid;
+				border-color:red;
+				border-width: 2px;
+				transition: background-color 0.5s;
+				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+			}
+			.button:hover{
+				background-color:white;
+				color:red;
 			}
 			p{
 				text-align:center;
@@ -38,6 +64,7 @@
 				padding:5%;
 				margin-top:5%;
 				margin:5%;
+				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 			}
 			form{
 				text-align:center;
@@ -47,7 +74,7 @@
 				margin:5%;
 				margin-left: auto;
     			margin-right: auto;
-				width: 25%
+				width: 25%;
 			}
 			table{
 				text-align:center;
