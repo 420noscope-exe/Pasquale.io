@@ -3,8 +3,9 @@
 	<head>
 		<title>Contact Me</title>
 		<meta name="description" content="Contact me with technical inquiries or employment opportunities.">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">#removing this line as it causes issues with navbar scaling on mobile-->
 		<meta charset="UTF-8">
+		<link rel="icon" type="image/x-icon" href="FavIcon32.ico">
 		<link href="styles.css" rel="stylesheet">
 	</head>
 	<body>
@@ -18,14 +19,14 @@
 		<main>
 			<form>
 				<label>Name:</label>
-				<input name="Name"><br>
+				<input name="Name" id="name" required><br>
 				<label>Email Address:</label>
-				<input name="Email Address"><br>
+				<input name="Email Address" id="email" required><br>
 				<label>Subject:</label>
-				<input name="Subject"><br>
+				<input name="Subject" id="subject" required><br>
 				<label>Message:</label><br>
-				<textarea name="Message" rows="40" cols="40"></textarea><br>
-				<button class="button">Send Message</button>
+				<textarea name="Message" id="message" rows="40" cols="40"></textarea><br>
+				<button class="button" type="submit" required>Send Message</button>
 			</form>
 		</main>
 		<footer>
