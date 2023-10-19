@@ -28,6 +28,7 @@
 				text-align: center;
 				font-size: 48px;
 				margin-bottom: 32px;
+				width: 100%;
 			}
 			a{
 				text-decoration: none;
@@ -101,6 +102,11 @@
 			.softwareicon{
 				padding-left: 10px;
 				padding-right: 10px;
+				height: 64px;
+			}
+			.softwareiconintable{
+				margin: 20px;
+				height: 64px;
 			}
 			img.aboutmepic{
 				width: 300px;
@@ -123,7 +129,7 @@
 				padding:1%;
 				margin:5%;
 				margin-left: auto;
-    			margin-right: auto;
+    				margin-right: auto;
 				width: 451px;
 				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 			}
