@@ -117,7 +117,7 @@
 			}
 			img.med{
 				width: 500px;
-				background-color: black;
+				background-color: transparent;
 				object-fit: cover;
 				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 				margin:10px;
